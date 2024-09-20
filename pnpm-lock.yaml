@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@rive-app/canvas':
+    specifier: ^2.21.2
+    version: 2.21.2
+  '@rive-app/react-canvas':
+    specifier: ^4.14.1
+    version: 4.14.1(react@18.3.1)
   next:
     specifier: 14.2.8
     version: 14.2.8(react-dom@18.3.1)(react@18.3.1)
@@ -272,6 +278,23 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@rive-app/canvas@2.21.1:
+    resolution: {integrity: sha512-Gdf9nsfnByeBqqUSHqgC/Gz2j72LgO8ZykT9tANIXHnjMCrKlgpP7B/C/+dPFP2d8mcj6gUKKuhBF6i7OKqYvQ==}
+    dev: false
+
+  /@rive-app/canvas@2.21.2:
+    resolution: {integrity: sha512-y+PQDA1uCWNQo27ej42JqHB/fjWN4GYE3ewrWRcJ++rOCLiNvgTP9wCHr+JRzIQJM3CFV3x9YtJf759WkzWGcQ==}
+    dev: false
+
+  /@rive-app/react-canvas@4.14.1(react@18.3.1):
+    resolution: {integrity: sha512-52sk/TtU35hrm8xWOpDvxvTQ/j3D6I3Ztagj83q1VlDtx3g5mPo4bkGBEvnkf4hxztztIXGaPAtfbVqKEj4RFg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@rive-app/canvas': 2.21.1
+      react: 18.3.1
+    dev: false
 
   /@rtsao/scc@1.1.0:
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
